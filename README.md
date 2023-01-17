@@ -7,13 +7,13 @@
 
 #### Reference:
 
-- https://github.com/ytdl-org/youtube-dl
-- https://github.com/yt-dlp/FFmpeg-Builds#downloads
-- https://github.com/yt-dlp/yt-dlp#installation
+- [https://github.com/ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)
+- [https://github.com/yt-dlp/FFmpeg-Builds#downloads](https://github.com/yt-dlp/FFmpeg-Builds#downloads)
+- [https://github.com/yt-dlp/yt-dlp#installation](https://github.com/yt-dlp/yt-dlp#installation)
 
 #### Script
 
-- https://github.com/Jas0n0ss/yt-dlp-setup
+- [https://github.com/Jas0n0ss/yt-dlp-setup](https://github.com/Jas0n0ss/yt-dlp-setup)
 ```bash
 $ wget https://raw.githubusercontent.com/Jas0n0ss/yt-dlp-setup/main/script/yt-down.sh && chmod +x yt-down.sh
 $ ./yt-down.sh
@@ -29,8 +29,8 @@ $ ./yt-down.sh
  yt-dlp -f <id> -P <PATH> --restrict-filenames <URL>
 ```
 more usage:
-- https://github.com/yt-dlp/yt-dlp#output-template-examples
-- https://github.com/yt-dlp/yt-dlp#format-selection-examples
+- [https://github.com/yt-dlp/yt-dlp#output-template-examples](https://github.com/yt-dlp/yt-dlp#output-template-examples)
+- [https://github.com/yt-dlp/yt-dlp#format-selection-examples](https://github.com/yt-dlp/yt-dlp#format-selection-examples)
 
 `youtube-dl` VS` yt-dlp`
 
