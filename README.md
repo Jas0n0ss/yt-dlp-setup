@@ -14,6 +14,10 @@
 #### Script
 
 - https://github.com/Jas0n0ss/yt-dlp-setup
+```bash
+$ wget https://raw.githubusercontent.com/Jas0n0ss/yt-dlp-setup/main/script/yt-down.sh && chmod +x yt-down.sh
+$ ./yt-down.sh
+```
 
 #### Yt-dlp common used example
 
