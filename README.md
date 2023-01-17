@@ -15,9 +15,13 @@
 
 - [https://github.com/Jas0n0ss/yt-dlp-setup](https://github.com/Jas0n0ss/yt-dlp-setup)
 ```bash
-$ wget https://raw.githubusercontent.com/Jas0n0ss/yt-dlp-setup/main/script/yt-down.sh && chmod +x yt-down.sh
-$ ./yt-down.sh
+# install yt-dlp
+$ wget -L https://raw.githubusercontent.com/Jas0n0ss/yt-dlp-setup/main/script/yt-dlp-install.sh && chmod +x yt-dlp-install.sh
+$ ./yt-dlp-install.sh
+# wget -L https://raw.githubusercontent.com/Jas0n0ss/yt-dlp-setup/main/script/tubedownloader.sh && chmod +x tubedownloader.sh
+./tubedownloader.sh <URL>
 ```
+![image-20230117203403669.png](img/image-20230117203403669.png)
 
 #### Yt-dlp common used example
 
@@ -28,6 +32,9 @@ $ ./yt-down.sh
  yt-dlp -F <URL>
  yt-dlp -f <id> -P <PATH> --restrict-filenames <URL>
 ```
+```bash
+
+```
 more usage:
 - [https://github.com/yt-dlp/yt-dlp#output-template-examples](https://github.com/yt-dlp/yt-dlp#output-template-examples)
 - [https://github.com/yt-dlp/yt-dlp#format-selection-examples](https://github.com/yt-dlp/yt-dlp#format-selection-examples)
@@ -35,6 +42,5 @@ more usage:
 `youtube-dl` VS` yt-dlp`
 
 ![image-20230117122733563.png](img/image-20230117122733563.png)
-
 ![image-20230117123008729.png](img/image-20230117123008729.png)
 
