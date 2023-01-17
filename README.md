@@ -32,9 +32,6 @@ $ ./yt-dlp-install.sh
  yt-dlp -F <URL>
  yt-dlp -f <id> -P <PATH> --restrict-filenames <URL>
 ```
-```bash
-
-```
 more usage:
 - [https://github.com/yt-dlp/yt-dlp#output-template-examples](https://github.com/yt-dlp/yt-dlp#output-template-examples)
 - [https://github.com/yt-dlp/yt-dlp#format-selection-examples](https://github.com/yt-dlp/yt-dlp#format-selection-examples)
