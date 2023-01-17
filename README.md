@@ -24,6 +24,9 @@
  yt-dlp -F <URL>
  yt-dlp -f <id> -P <PATH> --restrict-filenames <URL>
 ```
+more usage:
+- https://github.com/yt-dlp/yt-dlp#output-template-examples
+- https://github.com/yt-dlp/yt-dlp#format-selection-examples
 
 `youtube-dl` VS` yt-dlp`
 
