@@ -78,16 +78,16 @@ ffmpeg_check
 echo -e "${yellow}Please enter the video URL: ${end}"
 read -r URL
 # List all video types and video Quality
-yt-dlp -F $URL
+yt-dlp -F $URL | grep -E  "^399|^137|^400|^401" | lolcat
 echo -e  "${yellow}Please enter the video Quality you want to download (The Number before vodio types), leave it blank will download best Quality of mp4:${end} "
 read -r QUA
 echo -e  "${yellow}Please enter the Path you want to save the video(like /data/video): ${end}"
 read -r V_PATH
 # Best quality By default
-Quality=${QUA:-"best"}
+Quality=${QUA:-"4k"}
 
-if [ $Quality == best ];then
-    yt-dlp -S "ext" -P $V_PATH --restrict-filenames $URL
+if [ $Quality == "4k" ];then
+    yt-dlp -f 401 -P $V_PATH --restrict-filenames $URL
 else
     yt-dlp -f $QUA -P $V_PATH --restrict-filenames $URL
 fi
